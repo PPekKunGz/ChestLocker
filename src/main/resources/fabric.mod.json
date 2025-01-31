@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chestlogger",
+  "version": "${version}",
+  "name": "chestlogger",
+  "description": "just discord status bot, used for minecraft project and showing on discord",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chestlogger/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.ppekkungz.client.ChestLoggerClient"
+    ],
+    "main": [
+      "net.ppekkungz.ChestLoggerUtils"
+    ]
+  },
+  "mixins": [
+    "chestlogger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
