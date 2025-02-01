@@ -3,9 +3,15 @@
   "id": "chestlogger",
   "version": "${version}",
   "name": "chestlogger",
-  "description": "just discord status bot, used for minecraft project and showing on discord",
-  "authors": [],
-  "contact": {},
+  "description": "ChestLogger Mod - Private Chest to another player",
+  "authors": [
+    "@PPekKunGzDev"
+  ],
+  "contact": {
+    "homepage": "https://ppekkungz.in.th",
+    "sources": "https://github.com/PPekKunGz/ChestLogger",
+    "issues": "https://ppekkungz.in.th"
+  },
   "license": "MIT",
   "icon": "assets/chestlogger/icon.png",
   "environment": "*",
@@ -14,7 +20,7 @@
       "net.ppekkungz.client.ChestLoggerClient"
     ],
     "main": [
-      "net.ppekkungz.ChestLoggerUtils"
+      "net.ppekkungz.ChestLockerMod"
     ]
   },
   "mixins": [
