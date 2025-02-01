@@ -32,6 +32,8 @@ loom {
             "mixin.hotSwap": "true"
     ]
 
+    accessWidenerPath = file("src/main/resources/chestlogger.accesswidener")
+
     mixin {
         defaultRefmapName = "chestlogger.mixins.refmap.json"
     }
