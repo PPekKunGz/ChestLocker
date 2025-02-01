@@ -5,7 +5,8 @@
   "name": "chestlogger",
   "description": "ChestLogger Mod - Private Chest to another player",
   "authors": [
-    "@PPekKunGzDev"
+    "@PPekKunGzDev",
+    "MCKimKunG"
   ],
   "contact": {
     "homepage": "https://ppekkungz.in.th",
@@ -17,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.ppekkungz.client.ChestLoggerClient"
+      "net.ppekkungz.ChestLoggerClient"
     ],
     "main": [
       "net.ppekkungz.ChestLockerMod"
