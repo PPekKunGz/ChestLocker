@@ -81,7 +81,7 @@ dependencies {
         exclude group: "net.fabricmc", module: "fabric-loader"
     }
     // SmoothBoot
-    modImplementation "maven.modrinth:smoothboot-fabric:1.18.2-1.7.0"
+//    modImplementation "maven.modrinth:smoothboot-fabric:1.18.2-1.7.0"
 //    modImplementation 'software.bernie.geckolib:geckolib-fabric-1.18:3.0.80'
 }
 
