@@ -40,3 +40,5 @@ replay_*.log
 *.jfr
 /build
 /build/loom-cache
+/build
+/build
