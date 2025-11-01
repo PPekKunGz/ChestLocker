@@ -42,3 +42,4 @@ replay_*.log
 /build/loom-cache
 /build
 /build
+*.jar
