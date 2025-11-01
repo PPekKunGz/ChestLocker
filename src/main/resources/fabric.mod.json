@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "chestlogger",
+  "id": "chestlocker",
   "version": "${version}",
-  "name": "chestlogger",
-  "description": "ChestLogger Mod - Private Chest to another player",
+  "name": "chestlocker",
+  "description": "ChestLocker Mod - Private Chest to another player",
   "authors": [
     "@PPekKunGzDev",
     "MCKimKunG"
@@ -14,23 +14,23 @@
     "issues": "https://ppekkungz.in.th"
   },
   "license": "MIT",
-  "icon": "assets/chestlogger/icon.png",
+  "icon": "assets/chestlocker/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.ppekkungz.ChestLoggerClient"
+      "net.ppekkungz.ChestLockerClient"
     ],
     "main": [
       "net.ppekkungz.ChestLockerMod"
     ]
   },
   "mixins": [
-    "chestlogger.mixins.json"
+    "chestlocker.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   },
-  "accessWidener": "chestlogger.accesswidener"
+  "accessWidener": "chestlocker.accesswidener"
 }

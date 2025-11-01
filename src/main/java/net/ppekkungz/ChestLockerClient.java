@@ -11,7 +11,7 @@ import net.minecraft.world.item.Items;
 import net.ppekkungz.screen.PasswordScreen;
 
 @Environment(EnvType.CLIENT)
-public class ChestLoggerClient implements ClientModInitializer {
+public class ChestLockerClient implements ClientModInitializer {
 	public static final String MOD_ID = "chestlocker";
 	
 	@Override

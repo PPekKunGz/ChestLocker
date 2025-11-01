@@ -6,4 +6,6 @@ pluginManagement {
         }
         gradlePluginPortal()
     }
+
+    rootProject.name = "ChestLocker"
 }

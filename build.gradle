@@ -32,10 +32,10 @@ loom {
             "mixin.hotSwap": "true"
     ]
 
-    accessWidenerPath = file("src/main/resources/chestlogger.accesswidener")
+    accessWidenerPath = file("src/main/resources/chestlocker.accesswidener")
 
     mixin {
-        defaultRefmapName = "chestlogger.mixins.refmap.json"
+        defaultRefmapName = "chestlocker.mixins.refmap.json"
     }
 
     runs.configureEach {
